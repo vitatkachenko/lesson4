@@ -1,0 +1,85 @@
+/* BUTTONS */
+
+.l3-login-form .btn {
+	border-radius: 3px;
+	display: inline-block;
+	padding: 6px 12px;
+    font-size: 13px;
+    border: 1px solid #DCDCDC;;
+    font-weight: bold;
+	font-family: sans-serif;
+	line-height: 20px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+
+.l3-login-form .btn.btn-grey {
+	background-color: #F5F5F5;
+}
+/* без пробєла селектор це "і", тобто клас такий-то і такий-то*/
+
+.l3-login-form .btn.btn-grey:hover {
+	background-color: #DCDCDC;
+}
+
+/* FORM */
+
+.l3-login-form {
+	width: 400px;
+    height: 260px;
+    margin: 60px auto;
+    box-sizing: border-box;
+}
+
+/*з пробелом - елемент з таким селектором + батьківський елемент з таким селекторм=застосуються стилі*/
+
+.l3-login-form form .form-body {
+	border: 1px solid #DCDCDC;
+	padding: 20px;
+}
+
+/*ВСТАВЛЯТЬ БАЗОВИЙ КЛАС ПЕРЕД КОЖНИМ СЕЛЕКТОРОМ!!!!*/
+
+.l3-login-form .form-header {
+	color: #FFFFFF;
+	background-color: #829AA8;
+	border-radius: 3px 3px 0 0;
+	border: 1px solid #768995;
+	padding: 10px 20px;	
+}
+
+.l3-login-form input {
+	border-radius: 3px;
+	display: block;
+	width: 358px;
+	padding: 7px 8px;
+	border: 1px solid #DCDCDC;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	min-height: 34px;
+    box-sizing: border-box;
+}
+
+input.text:focus {
+	border: 1px solid #4682B4;
+}
+
+.l3-login-form .userinfo {
+	font-weight: bold;
+	margin: 0;
+	font-size: 15px;
+}
+
+.l3-login-form h6 {
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+	line-height: 17px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.l3-login-form a {
+	color: #4078C0;
+	text-decoration: none;
+}
+
